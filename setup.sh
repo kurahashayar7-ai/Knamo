@@ -11,7 +11,7 @@ read -p "Token: " USER_TOKEN
 echo "-------------------------------------------"
 
 # گۆڕینی تۆکنەکە لە ناو فایلی پایتۆنەکەدا
-sed -i "s/YOUR_BOT_TOKEN_HERE/$USER_TOKEN/g" bot.py
+sed -i "s/8654377707:AAHxypvl3zUl0HvSKgfEyWWeYNc9KAp1iMQ/$USER_TOKEN/g" bot.py
 
 echo "🚀 هەموو شتێک ئامادەیە! بۆتەکە ئێستا چالاک بوو..."
 python bot.py
